@@ -1,479 +1,492 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Personal Portfolio">
-    <meta name="author" content="Pablo Sierra">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Personal Portfolio">
+  <meta name="author" content="Pablo Sierra">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
 
-    <title>Pablo Sierra - Resume</title>
+  <title>Pablo Sierra - Resume</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/resume.css" rel="stylesheet">
-  </head>
+  <!-- Custom styles for this template -->
+  <link href="css/resume.css" rel="stylesheet">
+</head>
 
-  <body id="page-top">
-  <div id="preloader">
-    <div id="loader"></div>
-  </div>
-  <div id="body">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Personal Resume</span>
-        <span class="d-none d-lg-block">
+<body id="page-top">
+<div id="preloader">
+  <div id="loader"></div>
+</div>
+<div id="body">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Personal Resume</span>
+      <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2 img-responsive" src="img/profile.jpg" alt="profile">
         </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="change close-sidenav" id="menu" onclick="AnimateSidenav(this)">
         <div class="menu-bar bar1"></div>
         <div class="menu-bar bar2"></div>
         <div class="menu-bar bar3"></div>
       </div>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">
             <span class="spanish">Acerca de mí</span>
             <span class="english">About me</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">
-              <span class="spanish">Experiencia y Proyectos</span>
-              <span class="english">Experience and Projects</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">
-              <span class="spanish">Educación</span>
-              <span class="english">Education</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">
-              <span class="spanish">Habilidades</span>
-              <span class="english">Skills</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#certificates">
-              <span class="spanish">Cursos y Certificaciones</span>
-              <span class="english">Courses and Certifications</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">
-              <span class="spanish">Contacto</span>
-              <span class="english">Contact</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="idiomas">
-        <ul>
-          <li data-toggle="tooltip" title="Español"><img onclick="TranslateToSpanish()" class="img-fluid" src="img/venezuela.png"></li>
-          <li data-toggle="tooltip" title="English"><img onclick="TranslateToEnglish()" class="img-fluid" src="img/united-states.png"></img></li>
-        </ul>
-      </div>
-    </nav>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">
+            <span class="spanish">Experiencia y Proyectos</span>
+            <span class="english">Experience and Projects</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">
+            <span class="spanish">Educación</span>
+            <span class="english">Education</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">
+            <span class="spanish">Habilidades</span>
+            <span class="english">Skills</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#certificates">
+            <span class="spanish">Cursos y Certificaciones</span>
+            <span class="english">Courses and Certifications</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">
+            <span class="spanish">Contacto</span>
+            <span class="english">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="idiomas">
+      <ul>
+        <li data-toggle="tooltip" title="Español"><img onclick="TranslateToSpanish()" class="img-fluid" src="img/venezuela.png"></li>
+        <li data-toggle="tooltip" title="English"><img onclick="TranslateToEnglish()" class="img-fluid" src="img/united-states.png"></img></li>
+      </ul>
+    </div>
+  </nav>
 
-    <div class="container-fluid p-0">
+  <div class="container-fluid p-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>Pablo
-            <span class="text-primary">Sierra</span>
-          </h1>
-          <div class="subheading mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
-              <span class="spanish">San Antonio de los Altos · Estado Miranda, Venezuela · (+58) 412 964-1228</span>
-              <span class="english">San Antonio de los Altos · Miranda State, Venezuela · (+58) 412 964-1228</span>
-          </div>
-            <p class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <h1 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>Pablo
+          <span class="text-primary">Sierra</span>
+        </h1>
+        <div class="subheading mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
+          <span class="spanish">San Antonio de los Altos · Estado Miranda, Venezuela · (+58) 412 964-1228</span>
+          <span class="english">San Antonio de los Altos · Miranda State, Venezuela · (+58) 412 964-1228</span>
+        </div>
+        <p class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
             <span class="spanish">
-              Hola, mi nombre es Pablo Sierra, soy un Joven Venezolano de 24 años de edad, soy Ingeniero de Sistemas y actualmente trabajo desarrollando páginas web, aplicaciones web y aplicaciones móviles. Soy una persona comprometida, responsable y seria en mi ámbito laboral, es mi intención que mi empleador se sienta complacido con mi desempeño y que no dude en volver a contactarme, por lo que siempre me esforzaré al máximo para cumplir con los objetivos establecidos.
+              Hola, mi nombre es Pablo Sierra, soy un Joven Venezolano de 25 años de edad, soy Ingeniero de Sistemas y actualmente trabajo desarrollando páginas web, aplicaciones web y aplicaciones móviles. Soy una persona comprometida, responsable y seria en mi ámbito laboral, es mi intención que mi empleador se sienta complacido con mi desempeño y que no dude en volver a contactarme, por lo que siempre me esforzaré al máximo para cumplir con los objetivos establecidos.
             </span>
-            <span class="english">
-              Hi, my name is Pablo Sierra, I'm a 24 year old Venezuelan, I'm a Systems Engineer and I'm currently working on developing web pages, web applications and mobile applications. I am a committed, responsible and serious person in my work environment, it is my intention that my employer feels pleased with my performance and that he does not hesitate to contact me again, so I will always try my best to meet the established objectives. 
+          <span class="english">
+              Hi, my name is Pablo Sierra, I'm a 25 year old Venezuelan, I'm a Systems Engineer and I'm currently working on developing web pages, web applications and mobile applications. I am a committed, responsible and serious person in my work environment, it is my intention that my employer feels pleased with my performance and that he does not hesitate to contact me again, so I will always try my best to meet the established objectives.
             </span>
-            </p>
-          <p data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>
-            <span class="spanish">Puedes ver y descargar mi currículo <a href="files/Currículo_Ingeniero_de_Sistemas_Pablo_Sierra.pdf" target="_blank">aquí</a></span>
-            <span class="english">You can see and download my curriculum <a href="files/Currículo_Ingeniero_de_Sistemas_Pablo_Sierra.pdf" target="_blank">here</a></span>
-          </p>
-          <ul class="list-inline list-social-icons mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
-            <li class="list-inline-item" data-toggle="tooltip" title="LinkedIn">
-              <a class="spanish" href="https://www.linkedin.com/in/pablo-sierra-3309bb149/" target="_blank">
+        </p>
+        <p data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>
+          <span class="spanish">Puedes ver y descargar mi currículo <a href="files/Currículo_Ingeniero_de_Sistemas_Pablo_Sierra.pdf" target="_blank">aquí</a></span>
+          <span class="english">You can see and download my curriculum <a href="files/Currículo_Ingeniero_de_Sistemas_Pablo_Sierra.pdf" target="_blank">here</a></span>
+        </p>
+        <ul class="list-inline list-social-icons mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
+          <li class="list-inline-item" data-toggle="tooltip" title="LinkedIn">
+            <a class="spanish" href="https://www.linkedin.com/in/pablo-sierra-3309bb149/" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                 </span>
-              </a>
-              <a class="english" href="https://www.linkedin.com/in/pablo-sierra-3309bb149/?locale=en_US" target="_blank">
+            </a>
+            <a class="english" href="https://www.linkedin.com/in/pablo-sierra-3309bb149/?locale=en_US" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                 </span>
-              </a>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Github">
-              <a href="https://github.com/pmsg21" target="_blank">
+            </a>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Github">
+            <a href="https://github.com/pmsg21" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                 </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
-            <span class="spanish">Experiencia</span>
-            <span class="english">Experience</span>
-          </h2>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
+          <span class="spanish">Experiencia</span>
+          <span class="english">Experience</span>
+        </h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5 card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
-                  <span class="spanish">Desarrollador Semi-Senior</span>
-                  <span class="english">Semi-Senior Developer</span>
-              </h3>
-              <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>Soluciones Medianet C.A.</div>
-              <p data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
-                <span class="spanish">Desarrollé páginas web usando HTML5, CSS3, JavaScript, jQuery, Bootstrap3 y PHP, también me desempeñe en el área de las aplicaciones web usando AngularJS y C# y aplicaciones móviles usando Xamarin y Ionic. Usé distintas herramientas como SQL Server 2014, cPanel, Filezilla y phpMyAdmin. También me encargué de la administración y configuración de Web Hosting.</span>
-                <span class="english">I developed web pages using HTML5, CSS3, JavaScript, jQuey, Bootstrap3 and PHP, i also worked developing web applications using AngularJS and C# and mobile applications using Xamarin and Ionic. I worked with different tools like SQL Server 2014, cPanel, Filezzila and phpMyAdmin. I also handled the administration and configuration of Web Hosting</span>
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
+        <div class="resume-item d-flex flex-column flex-md-row mb-5 card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
+              <span class="spanish">Desarrollador Semi-Senior</span>
+              <span class="english">Semi-Senior Developer</span>
+            </h3>
+            <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>Soluciones Medianet C.A.</div>
+            <p data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
+              <span class="spanish">Desarrollé páginas web usando HTML5, CSS3, JavaScript, jQuery, Bootstrap3 y PHP, también me desempeñe en el área de las aplicaciones web usando AngularJS (Para la funcionalidad del Frontend) y C# (Para la funcionalidad del Backend) y trabajé a nivel muy básico con aplicaciones móviles usando Ionic y Xamarin. Usé distintas herramientas como SQL Server 2014, cPanel y Filezilla. También me encargué de impartir un curso de 1 semana de duración sobre el mantenimiento e incorporación de nuevas características a uno de los proyectos que había desarrollado.</span>
+              <span class="english">I developed web pages using HTML5, CSS3, JavaScript, jQuery, Bootstrap3 and PHP, I also worked on web applications using AngularJS (For Frontend functionality) and C# (For Backend functionality) and worked at a very basic level with mobile applications using Ionic and Xamarin. I used different tools like SQL Server 2014, cPanel and Filezilla. I also took charge of teaching a 1-week course on the maintenance and incorporation of new features to one of the projects I had developed.</span>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
               <span class="text-primary" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>
                   <span class="spanish">Enero 2017 - Enero 2018</span>
                   <span class="english">January 2017 - January 2018</span>
               </span>
-            </div>
           </div>
+        </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5 card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.5"}'>
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.6"}'>Software Developer</h3>
-              <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.7"}'>Technology 4 Solutions</div>
-              <p data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.8"}'>
-                <span class="spanish">Actualmente estoy realizando aplicaciones web usando AngularJS y CakePHP 3.4, también utilizo MySql Workbench y Jenkins.</span>
-                <span class="english">I'm currently developing web applications using AngularJS and CakePHP 3.4, i also use MySql Workbench and Jenkins.</span>
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
+        <div class="resume-item d-flex flex-column flex-md-row mb-5 card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.5"}'>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.6"}'>Software Developer</h3>
+            <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.7"}'>Technology 4 Solutions</div>
+            <p data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.8"}'>
+              <span class="spanish">He trabajado en el desarrollo de aplicaciones web usando AngularJS (Para la funcionalidad del Frontend) y CakePHP (Para la funcionalidad del Backend), también he desarrollado aplicaciones de escritorio utilizando Electron y Angular 2 y he estado a cargo de la corrección de errores en una aplicación móvil que esta desarrollada en React Native. He utilizado herramientas como MySQL Workbench, en donde me he desempeñado en la creación de Stored Procedures, de igual manera he trabajado con Postman probando los servicios web desarrollados en el Backend y aprendiendo a realizar pruebas de integración. He configurado y utilizado Jenkins para el proceso de integración continua y he estado aprendiendo a utilizar las pruebas unitarias del framework CakePHP para el mejor funcionamiento del código.</span>
+              <span class="english">I've worked on the development of web applications using AngularJS (For Frontend functionality) and CakePHP (For Backend functionality), i've also developed desktop applications using Electron and Angular 2 and i've been in charge of solving issues in a mobile application that is developed in React Native. I've used tools like MySQL Workbench, where I have worked in the creation of Stored Procedures, in the same way i've worked with Postman testing the services developed in the Backend and learning to perform integration tests. I've configured and used Jenkins for the continuous integration process and i've been learning to use the unit tests of the CakePHP framework for better code performance.</span>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
               <span class="text-primary" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.6"}'>
                   <span class="spanish">Enero 2018 - Actualidad</span>
                   <span class="english">January 2018 - Present</span>
               </span>
-            </div>
           </div>
-
-
-          <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
-            <span class="spanish">Proyectos Realizados</span>
-            <span class="english">Projects</span>
-          </h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
-                  <span class="spanish">Página Web para empresa Electrónica Sigma 3 C.A. <small>(Proyecto en desarrollo)</small></span>
-                  <span class="english">Website for Electrónica Sigma 3 C.A. <small>(Project in development)</small></span>
-              </h3>
-              <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>
-                  <span class="spanish">Página web realizada usando HTML5, CSS3, JavaScript, jQuery y Bootstrap3, puede ser visualizada haciendo click <a target="_blank" href="http://esigma3.com/Website/">aquí</a></span>
-                  <span class="english">Website made using HTML5, CSS3, JavaScript, jQuery and Bootstrap3, it can be visualized by clicking <a target="_blank" href="http://esigma3.com/Website/">here</a></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.5"}'>
-                  <span class="spanish">Página Web para empresa Mia Bella Jewerly <small>(Proyecto en desarrollo)</small></span>
-                  <span class="english">Website for Mia Bella Jewerly <small>(Project in development)</small></span>
-              </h3>
-              <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.6"}'>
-                  <span class="spanish">Página web realizada usando HTML5, CSS3, JavaScript, jQuery, AngularJS, Bootstrap3 y PHP, puede ser visualizada haciendo click <a target="_blank" href="http://miabellaus.com">aquí</a></span>
-                  <span class="english">Website made using HTML5, CSS3, JavaScript, jQuery, AngularJS, Bootstrap3 and PHP, it can be visualized by clicking <a target="_blank" href="http://miabellaus.com">here</a></span>
-              </div>
-            </div>
-          </div>
-
         </div>
 
-      </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
-              <span class="spanish">Educación</span>
-              <span class="english">Education</span>
-          </h2>
+        <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
+          <span class="spanish">Proyectos Realizados</span>
+          <span class="english">Projects</span>
+        </h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
-                  <span class="spanish">Bachiller en Ciencias</span>
-                  <span class="english">High School Degree</span>
-              </h3>
-              <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>U.E. Tomás de Jesús Quintero</div>
+        <div class="resume-item d-flex flex-column flex-md-row card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
+              <span class="spanish">Página Web para la empresa Electrónica Sigma 3 C.A. <small>(Proyecto en desarrollo)</small></span>
+              <span class="english">Website for the company Electrónica Sigma 3 C.A. <small>(Project in development)</small></span>
+            </h3>
+            <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>
+              <span class="spanish">Página web informativa realizada usando HTML5, CSS3, JavaScript, jQuery y Bootstrap3 para el diseño responsive. Puede ser visualizada haciendo click <a target="_blank" href="http://esigma3.com/Website/">aquí</a></span>
+              <span class="english">Informative website made using HTML5, CSS3, JavaScript, jQuery and Bootstrap3 for responsive design. It can be visualized by clicking <a target="_blank" href="http://esigma3.com/Website/">here</a></span>
             </div>
-            <div class="resume-date text-md-right">
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.5"}'>
+              <span class="spanish">Página Web para la empresa Mia Bella Jewerly <small>(Proyecto en desarrollo)</small></span>
+              <span class="english">Website for the company Mia Bella Jewerly <small>(Project in development)</small></span>
+            </h3>
+            <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.6"}'>
+              <span class="spanish">La desarrollé usando AngularJS, para todo el funcionamiento e interacción del usuario con el Frontend y slimPHP, para toda la creación de los servicios web y de la lógica de negocio de la aplicación, también me encargue de esquematizar y crear la base de datos. Puede ser visualizada haciendo click <a target="_blank" href="http://miabellaus.com">aquí</a></span>
+              <span class="english">I developed it using AngularJS, for all the operation and interaction of the user with the Frontend and slimPHP, for all the creation of the web services and the business logic of the application, I was also in charge of schematizing and creating the database. It can be visualized by clicking <a target="_blank" href="http://miabellaus.com">here</a></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.7"}'>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.8"}'>
+              <span class="spanish">Aplicación móvil para la empresa Plim Plum</span>
+              <span class="english">Mobile App for the company Plim Plum</span>
+            </h3>
+            <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.9"}'>
+              <span class="spanish">Estuve encargado del proceso de creación de esta App usando React Native, en donde tuve la oportunidad de trabajar por componentes y de consumir servicios web SOAP.</span>
+              <span class="english">I was in charge of the process of creating this App using React Native, where I had the opportunity to work with components and consume SOAP web services.</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+      <div class="my-auto">
+        <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
+          <span class="spanish">Educación</span>
+          <span class="english">Education</span>
+        </h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
+              <span class="spanish">Bachiller en Ciencias</span>
+              <span class="english">High School Degree</span>
+            </h3>
+            <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>U.E. Tomás de Jesús Quintero</div>
+          </div>
+          <div class="resume-date text-md-right">
               <span class="text-primary">
                   <span class="spanish">Agosto 2006 - Mayo 2011</span>
                   <span class="english">August 2006 - May 2011</span>
               </span>
-            </div>
           </div>
+        </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
-                  <span class="spanish">Ingeniería de Sistemas</span>
-                  <span class="english">Engineer's degree</span>
-              </h3>
-              <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.5"}'>Universidad Bicentenaria de Aragua</div>
-            </div>
-            <div class="resume-date text-md-right">
+        <div class="resume-item d-flex flex-column flex-md-row mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
+              <span class="spanish">Ingeniería de Sistemas</span>
+              <span class="english">Engineer's degree</span>
+            </h3>
+            <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.5"}'>Universidad Bicentenaria de Aragua</div>
+          </div>
+          <div class="resume-date text-md-right">
               <span class="text-primary">
                   <span class="spanish">Octubre 2011 - Octubre 2017</span>
                   <span class="english">October 2011 - October 2017</span>
               </span>
-            </div>
           </div>
-
         </div>
-      </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
-              <span class="spanish">Habilidades</span>
-              <span class="english">Skills</span>
-          </h2>
+      </div>
+    </section>
 
-          <div class="card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
-            <div class="subheading mb-3">
-                <span class="spanish">Lenguajes de programación & Herramientas</span>
-                <span class="english">Programming Languages ​​& Tools</span>
-            </div>
-            <ul class="list-inline list-icons">
-              <li class="list-inline-item">
-                <i class="devicons devicons-javascript" data-toggle="tooltip" title="JavaScript"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-jquery" data-toggle="tooltip" title="jQuery"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-angular" data-toggle="tooltip" title="AngularJS"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-php" data-toggle="tooltip" title="PHP"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-html5" data-toggle="tooltip" title="HTML5"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-css3" data-toggle="tooltip" title="CSS3"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-less" data-toggle="tooltip" title="Less"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-bootstrap" data-toggle="tooltip" title="Bootstrap3"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-scriptcs" data-toggle="tooltip" title="C#"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-java" data-toggle="tooltip" title="Java"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-ionic" data-toggle="tooltip" title="Ionic"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-git" data-toggle="tooltip" title="Git"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-mysql" data-toggle="tooltip" title="MySQL"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-linux" data-toggle="tooltip" title="Linux"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-ubuntu" data-toggle="tooltip" title="Ubuntu"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-visualstudio" data-toggle="tooltip" title="Visual Studio"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-msql_server" data-toggle="tooltip" title="SQL Server"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-composer" data-toggle="tooltip" title="Composer"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-jenkins" data-toggle="tooltip" title="Jenkins"></i>
-              </li>
-            </ul>
-            <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>Workflow</div>
-            <ul class="fa-ul mb-0">
-              <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
-                <i class="fa-li fa fa-check"></i>
-                Mobile-First, Responsive Design</li>
-              <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.5"}'>
-                <i class="fa-li fa fa-check"></i>
-                Cross Browser Testing & Debugging</li>
-              <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.6"}'>
-                <i class="fa-li fa fa-check"></i>
-                  <span class="spanish">Desarrollo Ágil & Scrum</span>
-                  <span class="english">Agile Development & Scrum</span>
-              </li>
-            </ul>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <div class="my-auto">
+        <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
+          <span class="spanish">Habilidades</span>
+          <span class="english">Skills</span>
+        </h2>
+
+        <div class="card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
+          <div class="subheading mb-3">
+            <span class="spanish">Lenguajes de programación & Herramientas</span>
+            <span class="english">Programming Languages ​​& Tools</span>
           </div>
-          </div>
-
-          <div class="card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.7"}'>
-            
-            <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.8"}'>
-                <span class="spanish">Idiomas</span>
-                <span class="english">Languages</span>
-            </div>
-            <ul class="fa-ul mb-0">
-              <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.9"}'>
-                <i class="fa-li fa fa-check"></i>
-                  <span class="spanish">Español (Nativo)</span>
-                  <span class="english">Spanish (Native)</span>
-              </li>
-              <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "2"}'>
-                <i class="fa-li fa fa-check"></i>
-                  <span class="spanish">Ingles (Avazado)</span>
-                  <span class="english">English (Advanced)</span>
-              </li>
-            </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="certificates">
-        <div class="my-auto">
-          <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
-              <span class="spanish">Cursos & Certificaciones</span>
-              <span class="english">Courses & Certifications</span>
-          </h2>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript" data-toggle="tooltip" title="JavaScript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery" data-toggle="tooltip" title="jQuery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-angular" data-toggle="tooltip" title="AngularJS"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-php" data-toggle="tooltip" title="PHP"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5" data-toggle="tooltip" title="HTML5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3" data-toggle="tooltip" title="CSS3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-less" data-toggle="tooltip" title="Less"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap" data-toggle="tooltip" title="Bootstrap3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-scriptcs" data-toggle="tooltip" title="C#"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-java" data-toggle="tooltip" title="Java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-ionic" data-toggle="tooltip" title="Ionic"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-git" data-toggle="tooltip" title="Git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-mysql" data-toggle="tooltip" title="MySQL"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-linux" data-toggle="tooltip" title="Linux"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-ubuntu" data-toggle="tooltip" title="Ubuntu"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-visualstudio" data-toggle="tooltip" title="Visual Studio"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-msql_server" data-toggle="tooltip" title="SQL Server"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-composer" data-toggle="tooltip" title="Composer"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jenkins" data-toggle="tooltip" title="Jenkins"></i>
+            </li>
+          </ul>
+          <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>Workflow</div>
           <ul class="fa-ul mb-0">
-            <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-                <span class="spanish">Curso Java SE // Benllisoft</span>
-                <span class="english">Java SE Course// Benllisoft</span>
-            </li>
-            <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-                <span class="spanish">Curso HTML5 // Benllisoft</span>
-                <span class="english">HTML5 Course// Benllisoft</span>
-            </li>
-            <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-                <span class="spanish">Curso Java EE // Benllisoft</span>
-                <span class="english">Java EE Course// Benllisoft</span>
-            </li>
             <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-                <span class="spanish">Curso JavaScript // Benllisoft</span>
-                <span class="english">JavaScript Course// Benllisoft</span>
-            </li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design</li>
             <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.5"}'>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-                <span class="spanish">Curso Bootstrap3 // Benllisoft</span>
-                <span class="english">Bootstrap3 Course// Benllisoft</span>
-            </li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing & Debugging</li>
             <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.6"}'>
-            <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.7"}'>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <span class="spanish">Curso de Introducción al Desarrollo Web // Google</span>
-              <span class="english">Introduction to Web Development Course// Google</span>
-            </li>
-            <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.8"}'>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-                <span class="spanish">Certificación MTA 98-375 Application Development Fundamentals // Microsoft</span>
-                <span class="english">MTA 98-375 Application Development Fundamentals Certification // Microsoft</span>
-            </li>
-            <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.9"}'>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-                <span class="spanish">Curso Introducción a WebSocket // Teachlr</span>
-                <span class="english">Introduction to WebSocket Course // Teachlr</span>
+              <i class="fa-li fa fa-check"></i>
+              <span class="spanish">Desarrollo Ágil & Scrum</span>
+              <span class="english">Agile Development & Scrum</span>
             </li>
           </ul>
         </div>
-      </section>
+      </div>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
-        <div class="my-auto">
-          <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
-              <span class="spanish">Contáctame</span>
-              <span class="english">Contact me</span>
-          </h2>
-          <div class="container" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
-            <div class="card">
-              <h3 class="text-center" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
-                  <span class="spanish">Déjame un mensaje y te contactaré a la brevedad posible.</span>
-                  <span class="english">Leave me a message and i will contact you as soon as possible.</span>
-              </h3>
-              <a class="spanish" href="mailto:pmsg21@gmail.com">Haz click aqui para enviarme un correo.</a>
-              <a class="english" href="mailto:pmsg21@gmail.com">Click here to send me an email.</a>
-            </div>
+      <div class="card" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.7"}'>
+
+        <div class="subheading mb-3" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.8"}'>
+          <span class="spanish">Idiomas</span>
+          <span class="english">Languages</span>
+        </div>
+        <ul class="fa-ul mb-0">
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.9"}'>
+            <i class="fa-li fa fa-check"></i>
+            <span class="spanish">Español (Nativo)</span>
+            <span class="english">Spanish (Native)</span>
+          </li>
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "2"}'>
+            <i class="fa-li fa fa-check"></i>
+            <span class="spanish">Ingles (Avazado)</span>
+            <span class="english">English (Advanced)</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="certificates">
+      <div class="my-auto">
+        <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
+          <span class="spanish">Cursos & Certificaciones</span>
+          <span class="english">Courses & Certifications</span>
+        </h2>
+        <ul class="fa-ul mb-0">
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            <span class="spanish">Curso Java SE // Benllisoft</span>
+            <span class="english">Java SE Course// Benllisoft</span>
+          </li>
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            <span class="spanish">Curso HTML5 // Benllisoft</span>
+            <span class="english">HTML5 Course// Benllisoft</span>
+          </li>
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.3"}'>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            <span class="spanish">Curso Java EE // Benllisoft</span>
+            <span class="english">Java EE Course// Benllisoft</span>
+          </li>
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.4"}'>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            <span class="spanish">Curso JavaScript // Benllisoft</span>
+            <span class="english">JavaScript Course// Benllisoft</span>
+          </li>
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.5"}'>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            <span class="spanish">Curso Bootstrap3 // Benllisoft</span>
+            <span class="english">Bootstrap3 Course// Benllisoft</span>
+          </li>
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.6"}'>
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.7"}'>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            <span class="spanish">Curso de Introducción al Desarrollo Web // Google</span>
+            <span class="english">Introduction to Web Development Course// Google</span>
+          </li>
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.8"}'>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            <span class="spanish">Certificación MTA 98-375 Application Development Fundamentals // Microsoft</span>
+            <span class="english">MTA 98-375 Application Development Fundamentals Certification // Microsoft</span>
+          </li>
+          <li data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.9"}'>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            <span class="spanish">Curso Introducción a WebSocket // Teachlr</span>
+            <span class="english">Introduction to WebSocket Course // Teachlr</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+      <div class="my-auto">
+        <h2 class="mb-5" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1"}'>
+          <span class="spanish">Contáctame</span>
+          <span class="english">Contact me</span>
+        </h2>
+        <div class="container" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.1"}'>
+          <div class="card">
+            <h3 class="text-center" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": "1.2"}'>
+              <span class="spanish">Déjame un mensaje y te contactaré a la brevedad posible.</span>
+              <span class="english">Leave me a message and i will contact you as soon as possible.</span>
+            </h3>
+            <a class="spanish" href="mailto:pmsg21@gmail.com">Haz click aqui para enviarme un correo.</a>
+            <a class="english" href="mailto:pmsg21@gmail.com">Click here to send me an email.</a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-    </div>
   </div>
+</div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
-    <script src="js/animate-scroll.js"></script>
-    <script src="js/MainScript.js"></script>
-    <script>
-      $(document).foundation();  
-      $(document).animateScroll();
+<!-- Custom scripts for this template -->
+<script src="js/resume.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+<script src="js/animate-scroll.js"></script>
+<script src="js/MainScript.js"></script>
+<script>
+  $(document).foundation();
+  $(document).animateScroll();
 
 
-      var doc = document.documentElement;
-      doc.setAttribute('data-useragent', navigator.userAgent);
-      $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();   
-        document.getElementById("preloader").style.display = "none";
-        document.getElementById("body").style.opacity = 1;
-    });
-    </script>
-  </body>
+  var doc = document.documentElement;
+  doc.setAttribute('data-useragent', navigator.userAgent);
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+    document.getElementById("preloader").style.display = "none";
+    document.getElementById("body").style.opacity = 1;
+  });
+</script>
+</body>
 
 </html>
