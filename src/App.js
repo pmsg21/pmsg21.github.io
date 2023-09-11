@@ -1,66 +1,47 @@
-import React, { useEffect, useState } from 'react';
-import ReactTooltip from 'react-tooltip';
-import HeaderComponent from "./components/HeaderComponent";
-import HomeComponent from "./components/HomeComponent";
-import AboutComponent from "./components/AboutComponent";
-import SkillsComponent from "./components/SkillsComponent";
-import ResumeComponent from "./components/ResumeComponent";
-import PortfolioComponent from "./components/PortfolioComponent";
-import ContactComponent from "./components/ContactComponent";
-import FooterComponent from "./components/FooterComponent";
-import jqueryHelper from "./helpers/jqueryHelper";
 import './animate.min.css';
+import {
+  About,
+  Contact,
+  Footer,
+  Header,
+  Home,
+  Portfolio,
+  Resume,
+  Skills,
+} from './pages';
+import { LanguageContextProvider } from './context/LanguageContext';
+import ReactTooltip from 'react-tooltip';
+import { AnimateLettersContextProvider } from './context/AnimateLettersContext';
 
 const App = () => {
+  return (
+    <LanguageContextProvider>
+      <button type="button" className="mobile-nav-toggle d-xl-none">
+        <i className="icofont-navigation-menu"></i>
+      </button>
 
-    const [siteLanguage, setSiteLanguage] = useState({
-        currentLanguage: 'es'
-    });
+      <Header />
 
-    const { currentLanguage } = siteLanguage;
+      <AnimateLettersContextProvider>
+        <Home />
+        <main id="main">
+          <About />
+          <Skills />
+          <Resume />
+          <Portfolio />
+          <Contact />
+        </main>
+        <Footer />
+      </AnimateLettersContextProvider>
 
-    const handleLanguageChange = () => {
-        setSiteLanguage({
-            currentLanguage: currentLanguage === 'en' ? 'es' : 'en'
-        });
-    };
+      <a href="#home" className="back-to-top">
+        <i className="bx bx-up-arrow-alt"></i>
+      </a>
+      <div id="preloader"></div>
 
-    useEffect(() => {
-        jqueryHelper();
-    }, [currentLanguage]);
-
-
-    return (
-        <>
-
-            <button type="button" className="mobile-nav-toggle d-xl-none"><i className="icofont-navigation-menu"></i></button>
-
-            <HeaderComponent currentLanguage={currentLanguage} handleLanguageChange={handleLanguageChange} />
-
-            <HomeComponent currentLanguage={currentLanguage} />
-
-            <main id="main">
-
-                <AboutComponent currentLanguage={currentLanguage} />
-
-                <SkillsComponent currentLanguage={currentLanguage} />
-
-                <ResumeComponent currentLanguage={currentLanguage} />
-
-                <PortfolioComponent currentLanguage={currentLanguage} />
-
-                <ContactComponent currentLanguage={currentLanguage} />
-
-            </main>
-
-            <FooterComponent currentLanguage={currentLanguage} />
-
-            <a href="#home" className="back-to-top"><i className="bx bx-up-arrow-alt"></i></a>
-            <div id="preloader"></div>
-
-            <ReactTooltip />
-        </>
-    );
+      <ReactTooltip />
+    </LanguageContextProvider>
+  );
 };
 
 export default App;
