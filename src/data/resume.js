@@ -155,14 +155,18 @@ export const coursesAndCertifications = [
 export const professionalExperience = [
   {
     company: 'Webdox CLM',
-    description: [
+    description: {
+      en: 'I worked on the development and maintenance of a web application for a Contract Lifecycle Management (CLM) using React and TypeScript. The application aimed to digitally manage commercial contracts through all stages, from creation to storage. I was part of a multidisciplinary team that included a Product Manager, a Product Designer, Engineering Managers, and both backend and frontend developers. We adopted agile methodologies like Scrum and Kanban to enhance efficiency and collaboration in the project, with 2-week sprints for task planning and execution. Some of these tasks included:',
+      es: 'Trabajé en el desarrollo y mantenimiento de una aplicación web para la Gestión del Ciclo de Vida de Contratos (CLM) utilizando React y TypeScript. La aplicación tenía como objetivo administrar contratos comerciales de manera digital en todas sus etapas, desde la creación hasta el almacenamiento. Formé parte de un equipo multidisciplinario que incluía un Product Manager, una Product Designer, Engineering Managers y desarrolladores backend y frontend. Adoptamos metodologías ágiles como Scrum y Kanban para mejorar la eficiencia y la colaboración en el proyecto, con sprints de 2 semanas para la planificación y ejecución de tareas. Algunas de estas tareas fueron:',
+    },
+    tasks: [
       {
         id: 1,
         text: {
-          en: 'Developed different sections of the application, in which I:',
+          en: 'Developing different sections of the application, in which I:',
           es: 'Desarrollé diferentes secciones de la aplicación, donde:',
         },
-        subdescription: [
+        subtasks: [
           {
             id: 1,
             text: {
@@ -180,7 +184,7 @@ export const professionalExperience = [
           {
             id: 3,
             text: {
-              en: 'Implemented a feature that restricts the types of documents the application allows, resulting in the product´s security optimization.',
+              en: `Implemented a feature that restricts the types of documents the application allows, resulting in the product's security optimization.`,
               es: 'Implementé una mejora que restringe los tipos de documentos permitidos por la aplicación resultando en una optimización de la seguridad del producto.',
             },
           },
@@ -189,22 +193,22 @@ export const professionalExperience = [
       {
         id: 2,
         text: {
-          en: 'Developed several components in the design system, rigorously tested, which were subsequently integrated into the product, applying the necessary logic so that other developers could use them, which managed, for example, to prevent a considerable security risk regarding excessive resource usage',
-          es: 'Desarrollé varios componentes en el design system, debidamente testeados, que posteriormente integré en el producto, aplicando la lógica necesaria para que otros desarrolladores los puedan utilizar, con lo que se logró, por ejemplo, prevenir un riesgo de seguridad considerable referente al uso excesivo de recursos.',
+          en: `Developing several components in the design system using Storybook, rigorously tested, which were subsequently integrated into the product, applying the necessary logic so that other developers could use them, which managed, for example, to prevent a considerable security risk regarding excessive resource usage.`,
+          es: 'Desarrollé varios componentes en el design system usando Storybook, debidamente testeados, que posteriormente integré en el producto, aplicando la lógica necesaria para que otros desarrolladores los puedan utilizar, con lo que se logró, por ejemplo, prevenir un riesgo de seguridad considerable referente al uso excesivo de recursos.',
         },
       },
       {
         id: 3,
         text: {
-          en: 'Worked on updating legacy components to eliminate technical debt and improve application performance.',
-          es: 'Trabajé en la actualización de componentes legacy para eliminar la deuda técnica y mejorar el rendimiento de la aplicación.',
+          en: `Refactoring legacy components to eliminate technical debt and improve the application's performance.`,
+          es: 'Refactoricé componentes legacy para eliminar la deuda técnica y mejorar el rendimiento de la aplicación.',
         },
       },
     ],
     id: 1,
     position: {
-      en: 'Software Engineer',
-      es: 'Software Engineer',
+      en: 'React Developer',
+      es: 'React Developer',
     },
     skillsUsed: [
       {
@@ -261,33 +265,37 @@ export const professionalExperience = [
   },
   {
     company: 'Initium Software',
-    description: [
+    description: {
+      en: 'I participated in the development and maintenance of a web application for an insurance company, using JavaScript, jQuery, and Symfony. The purpose was to enable quoting and management of information related to the services offered by the insurance company. I was part of a team that included a Product Manager, an Engineering Manager, and full-stack developers. We applied Scrum as an agile methodology, with one-week sprints. During my involvement, I carried out various tasks, including:',
+      es: 'Participé en el desarrollo y mantenimiento de una aplicación web para una empresa de seguros, utilizando JavaScript, jQuery y Symfony. La finalidad era permitir la cotización y gestión de información relacionada con los servicios ofrecidos. Formé parte de un equipo que constaba de una Product Manager, un Engineering Manager y desarrolladores full-stack. Aplicamos Scrum como metodología agile, con sprints de una semana. Durante mi participación, realicé diversas tareas, entre ellas:',
+    },
+    tasks: [
       {
         id: 1,
         text: {
-          en: 'Developed a function that generates quotes based on the information provided by the user of an insurance company.',
-          es: 'Desarrollé un modulo que permitía realizar cotizaciones de seguros de vida basado en la información proveída por el usuario.',
+          en: 'Developing a functionality that generates quotes based on the information provided by the user.',
+          es: 'Desarrollé una sección que permitía realizar cotizaciones de seguros de vida basado en la información proveída por el usuario.',
         },
       },
       {
         id: 2,
         text: {
-          en: "Created an informative section about the insurance's functionality.",
-          es: 'Desarollé un modulo informativo sobre el funcionamiento de los seguros de vida.',
+          en: "Creating an informative section about the insurance's functionality.",
+          es: 'Desarrollé un modulo informativo sobre el funcionamiento de los seguros de vida.',
         },
       },
       {
         id: 3,
         text: {
-          en: 'Worked on creating multiple REST services for CRUD operations of different records in the database.',
+          en: 'Creating multiple REST services for CRUD operations of different records in the database.',
           es: 'Trabajé en la creación de múltiples servicios REST para las operaciones CRUD de diferentes registros en la base de datos.',
         },
       },
     ],
     id: 2,
     position: {
-      en: 'Semi-Senior Web Developer',
-      es: 'Desarrollador Web Semi-Senior',
+      en: 'Full-Stack Developer',
+      es: 'Full-Stack Developer',
     },
     skillsUsed: [
       {
@@ -344,51 +352,55 @@ export const professionalExperience = [
       },
     ],
     yearFrom: '2020',
-    yearTo: '2021',
+    yearTo: '2022',
   },
   {
     company: 'Technology 4 Solutions',
-    description: [
+    description: {
+      en: 'I contributed to the development and maintenance of a web application designed for monitoring, security, and registration of buses and students on a school route, using AngularJS and CakePHP. I was part of a team consisting of four developers and one designer. Some of the tasks I carried out included:',
+      es: 'Contribuí al desarrollo y mantenimiento de una aplicación web destinada al monitoreo, seguridad y registro de autobuses y estudiantes en una ruta escolar, haciendo uso de AngularJS y CakePHP. Formé parte de un equipo compuesto por cuatro desarrolladores y un diseñador. Algunas de las tareas que llevé a cabo incluyeron:',
+    },
+    tasks: [
       {
         id: 1,
         text: {
-          en: 'Collaborated in the development of an application that allowed the GPS tracking of vehicles and users of a school route.',
+          en: 'Collaborating in the development of an application that allowed the GPS tracking of vehicles and users of a school route.',
           es: 'Colaboré en el desarrollo de una aplicación que permitia el seguimiento GPS de vehículos y usuarios de una ruta escolar.',
         },
       },
       {
         id: 2,
         text: {
-          en: 'Implemented a function that obtained the historical record of the routes of a vehicle or driver, drawing polylines on a map according to the coordinates of the vehicle.',
-          es: 'Desarrollé un módulo que permitía obtener el registro histórico de las rutas de un vehículo o conductor, trazando polylíneas en el mapa según las coordenadas del vehículo.',
+          en: 'Implementing a functionality that obtained the historical record of the routes of a vehicle or driver, drawing polylines on a map according to the coordinates of the vehicle.',
+          es: 'Desarrollé una sección que permitía obtener el registro histórico de las rutas de un vehículo o conductor, trazando polylíneas en el mapa según las coordenadas del vehículo.',
         },
       },
       {
         id: 3,
         text: {
-          en: 'Responsible for the creation of a desktop application that connected with previously developed web services, allowing efficient record creation and editing.',
+          en: 'Creating a desktop application that connected with previously developed web services, allowing efficient record creation and editing.',
           es: 'Responsable de crear una aplicación de escritorio que se conectaba con servicios web previamente desarrollados, permitiendo la creación y edición de registros de manera eficaz.',
         },
       },
       {
         id: 4,
         text: {
-          en: 'Created and modified web services and performed unit and integration tests on them.',
+          en: 'Creating and modifying web services and performing unit and integration tests on them.',
           es: 'Creé y modifiqué servicios web y realicé pruebas unitarias y de integración de los mismos.',
         },
       },
       {
         id: 5,
         text: {
-          en: 'In charge of creating Stored Procedures for the database.',
+          en: 'Creating Stored Procedures for the database',
           es: 'Encargado de la creación de Stored Procedures para la base de datos.',
         },
       },
     ],
     id: 3,
     position: {
-      en: 'Software Developer',
-      es: 'Desarrollador de Software',
+      en: 'Full-Stack Developer',
+      es: 'Full-Stack Developer',
     },
     skillsUsed: [
       {
@@ -449,26 +461,30 @@ export const professionalExperience = [
   },
   {
     company: 'Soluciones Medianet C.A.',
-    description: [
+    description: {
+      en: 'I collaborated in the development and maintenance of a web application for an insurance company. We used AngularJS and C# to enable the quoting and management of vehicle insurance policies. I was part of a team consisting of three developers and one designer. During my involvement, I performed various tasks, including:',
+      es: 'Participé en el desarrollo y mantenimiento de una aplicación web para una compañía de seguros. Utilizamos AngularJS y C# con el propósito de habilitar la cotización y administración de pólizas de seguros para vehículos. Fui parte de un equipo compuesto por tres desarrolladores y un diseñador. Durante mi colaboración, desempeñé diversas funciones, que incluyeron:',
+    },
+    tasks: [
       {
         id: 1,
         text: {
-          en: 'In charge of the development of a responsive informative website.',
-          es: 'A cargo del desarrollo de una página web informativa responsive.',
+          en: 'Developing a responsive informative website.',
+          es: 'Desarrollé de una página web informativa responsive.',
         },
       },
       {
         id: 2,
         text: {
-          en: 'Restructured and developed (fullstack) new modules of a web application for an insurance company.',
-          es: 'Desarrollo fullstack de una aplicación web para una empresa de seguros, en la que estuve a cargo de la reestructuración y creación de nuevos módulos.',
+          en: 'Restructured and developed (fullstack) new sections of a web application for an insurance company.',
+          es: 'Desarrollo fullstack de una aplicación web para una empresa de seguros, en la que estuve a cargo de la reestructuración y creación de nuevas secciones.',
         },
       },
       {
         id: 3,
         text: {
-          en: 'Responsible for updating and creating records, tables and scripts for the database.',
-          es: 'Responsable de la actualización y creación de registros, tablas y scripts para la base de datos.',
+          en: 'Updating and creating records, tables and scripts for the database.',
+          es: 'Actualicé y creé registros, tablas y scripts para la base de datos.',
         },
       },
       {
@@ -481,8 +497,8 @@ export const professionalExperience = [
     ],
     id: 4,
     position: {
-      en: 'Semi-Senior Developer',
-      es: 'Desarrollador Semi-Senior',
+      en: 'Full-Stack Developer',
+      es: 'Full-Stack Developer',
     },
     skillsUsed: [
       {

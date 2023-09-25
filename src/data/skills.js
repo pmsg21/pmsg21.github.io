@@ -37,39 +37,39 @@ export const skills = {
 
 export const skillTools = [
   {
-    dataTip: 'HTML5',
-    icon: faHtml5,
+    dataTip:
+      'React.js & React Native (Testing with Jest & React Testing Library)',
+    icon: faReact,
     id: 1,
-  },
-  {
-    dataTip: 'CSS3',
-    icon: faCss3Alt,
-    id: 2,
-  },
-  {
-    dataTip: 'LESS',
-    icon: faLess,
-    id: 3,
-  },
-  {
-    dataTip: 'SASS',
-    icon: faSass,
-    id: 4,
-  },
-  {
-    dataTip: 'Bootstrap',
-    icon: faBootstrap,
-    id: 5,
   },
   {
     dataTip: 'JavaScript & jQuery',
     icon: faJsSquare,
+    id: 2,
+  },
+  {
+    dataTip: 'HTML5',
+    icon: faHtml5,
+    id: 3,
+  },
+  {
+    dataTip: 'CSS3',
+    icon: faCss3Alt,
+    id: 4,
+  },
+  {
+    dataTip: 'LESS',
+    icon: faLess,
+    id: 5,
+  },
+  {
+    dataTip: 'SASS',
+    icon: faSass,
     id: 6,
   },
   {
-    dataTip:
-      'React.js & React Native (Testing with Jest & React Testing Library)',
-    icon: faReact,
+    dataTip: 'Bootstrap',
+    icon: faBootstrap,
     id: 7,
   },
   {

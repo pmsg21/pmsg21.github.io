@@ -21,7 +21,7 @@ export const AboutBody = () => {
       <div className="col-lg-4">
         <img
           src="/assets/img/profile-img.jpg"
-          className="img-fluid w-75 d-block m-auto profile-img"
+          className="img-fluid w-100 d-block m-auto profile-img"
           alt="profile-img"
         />
       </div>

@@ -5,9 +5,10 @@ const ResumeItem = ({
   company,
   description,
   position,
+  skillsUsed,
+  tasks,
   yearFrom,
   yearTo,
-  skillsUsed,
 }) => {
   const { translate } = useTranslation();
 
@@ -19,14 +20,15 @@ const ResumeItem = ({
       <h5>
         {yearFrom} - {yearTo}
       </h5>
+      <p>{translate(description)}</p>
       <ul className="mb-0">
-        {description.map(({ id, text, subdescription }) => (
-          <div key={`description_${id}`}>
+        {tasks.map(({ id, text, subtasks }) => (
+          <div key={`task_${id}`}>
             <li>{translate(text)}</li>
-            {subdescription && (
+            {subtasks && (
               <ul>
-                {subdescription.map(({ id, text }) => (
-                  <li key={`subdescription_${id}`}>{translate(text)}</li>
+                {subtasks.map(({ id, text }) => (
+                  <li key={`subtask_${id}`}>{translate(text)}</li>
                 ))}
               </ul>
             )}

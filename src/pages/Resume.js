@@ -63,11 +63,12 @@ export const Resume = () => {
               ({
                 company,
                 description,
+                id,
                 position,
+                skillsUsed,
+                tasks,
                 yearFrom,
                 yearTo,
-                id,
-                skillsUsed,
               }) => (
                 <ResumeItemContainer
                   className={id === 1 ? 'mt-2' : ''}
@@ -79,6 +80,7 @@ export const Resume = () => {
                     key={`resume_item_${id}`}
                     position={translate(position)}
                     skillsUsed={skillsUsed}
+                    tasks={tasks}
                     yearFrom={yearFrom}
                     yearTo={translate(yearTo) ? translate(yearTo) : yearTo}
                   />
