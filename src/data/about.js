@@ -4,8 +4,8 @@ export const about = {
     es: 'Acerca de mí',
   },
   firstParagraph: {
-    en: "I'm a web developer with 5+ years of experience working with legal, insurance and security oriented companies, collaborating remotely with international teams. Although I have worked as a fullstack I'm currently dedicated to the frontend working with React, applying clean code and the S.O.L.I.D principles in each of my developments.",
-    es: 'Soy un desarrollador web con más de 5 años de experiencia en los que he trabajado con empresas del sector legal, seguros y seguridad, colaborando remotamente con equipos internacionales. He trabajado como fullstack y actualmente me desempeño en el frontend trabajando con React, aplicando el clean code y los principios S.O.L.I.D en cada uno de mis desarrollos.',
+    en: "I'm a web developer with 7+ years of experience working with legal, insurance, security and service oriented companies, collaborating remotely with international teams. Although I have worked as a fullstack I'm currently dedicated to the frontend working with React, applying clean code and the S.O.L.I.D principles in each of my developments.",
+    es: 'Soy un desarrollador web con más de 7 años de experiencia en los que he trabajado con empresas del sector legal, seguros, seguridad y servicios, colaborando remotamente con equipos internacionales. He trabajado como fullstack y actualmente me desempeño en el frontend trabajando con React, aplicando el clean code y los principios S.O.L.I.D en cada uno de mis desarrollos.',
   },
   position: {
     en: 'Web Developer',

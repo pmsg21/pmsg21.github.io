@@ -154,6 +154,120 @@ export const coursesAndCertifications = [
 
 export const professionalExperience = [
   {
+    company: 'BYND Limited (Via Boost IT)',
+    description: {
+      en: 'I worked on the migration of a web application from CakePHP to Next.js/React. The application aims to help photographers set up an online shop, defining the looks, the services, the prices, sales, communication, photo handling, and more. I was part of a multidisciplinary team made up of a Senior Delivery Manager, Senior Technical Project Manager, a Front-End Lead Engineer, and 8 developers, using Kanban as an agile methodology for the execution and completion of tasks.',
+      es: 'Trabajé en la migración de una aplicación web de CakePHP a Next.js/React. La aplicación tiene como objetivo ayudar a los fotógrafos a configurar una tienda en línea, definiendo el aspecto, los servicios, los precios, las ventas, la comunicación, el manejo de fotos y más. Formé parte de un equipo multidisciplinario compuesto por una Senior Delivery Manager, un Senior Technical Project Manager, un Front-End Lead Engineer, y 8 desarrolladores, utilizando Kanban como metodología ágil para la ejecución y finalización de tareas.',
+    },
+    tasks: [
+      {
+        id: 1,
+        text: {
+          en: 'Migration of all page logic from legacy PHP code to React, creating initially the page structure, ensuring mobile styling, and adding QA IDs to elements for end-to-end testing.',
+          es: 'Migré toda la lógica de las páginas en las que trabajé de código legacy de PHP a React, creando inicialmente la estructura de la página, asegurando el estilo móvil y agregando IDs a los elementos para las pruebas end-to-end de QA.',
+        },
+      },
+      {
+        id: 2,
+        text: {
+          en: 'Integration of data fetching into the pages, handling permissions and server errors correctly, and creating unit tests to handle each case, ensuring that the projects code coverage is >= 90%.',
+          es: 'Integré los servicios creados por el equipo de backend en las páginas migradas, manejando permisos y errores del servidor correctamente, y creando pruebas unitarias para manejar cada caso, garantizando que la cobertura de código del proyecto fuese >= 90%.',
+        },
+      },
+      {
+        id: 3,
+        text: {
+          en: 'Research of React libraries that would allow information to be displayed in a chart, ensuring that they were flexible, stylizable, maintained, and well used, with Recharts being implemented to show the user’s monthly statistics.',
+          es: 'Investigué sobre bibliotecas de React que permitieran mostrar información en un gráfico, asegurando que fueran flexibles, estilizables, mantenidas y ampliamente utilizadas, siendo Recharts la implementada para mostrar las estadísticas mensuales del usuario.',
+        },
+      },
+      {
+        id: 4,
+        text: {
+          en: 'Creation of feature flags for production and staging environments in Gitlab to speed up the deployment process of the pages that were being migrated.',
+          es: 'Creé feature flags para entornos de producción y de staging en GitLab para acelerar el proceso de implementación de las páginas que se estaban migrando.',
+        },
+      },
+    ],
+    id: 'bynd-boost-it',
+    position: {
+      en: 'React Developer',
+      es: 'React Developer',
+    },
+    skillsUsed: [
+      {
+        id: 1,
+        name: 'React 18.2',
+      },
+      {
+        id: 2,
+        name: 'TypeScript 5.1',
+      },
+      {
+        id: 3,
+        name: 'Next 14.0',
+      },
+      {
+        id: 4,
+        name: 'JavaScript',
+      },
+      {
+        id: 5,
+        name: 'React Query 4.35',
+      },
+      {
+        id: 6,
+        name: 'Tailwindcss 3.3 ',
+      },
+      {
+        id: 7,
+        name: 'i18next 23.4',
+      },
+      {
+        id: 8,
+        name: 'recharts 2.11',
+      },
+      {
+        id: 9,
+        name: 'react-testing-library',
+      },
+      {
+        id: 10,
+        name: 'Jest',
+      },
+      {
+        id: 11,
+        name: 'HTML5',
+      },
+      {
+        id: 12,
+        name: 'pnpm 8.6',
+      },
+      {
+        id: 13,
+        name: 'Git',
+      },
+    ],
+    yearFrom: '2023',
+    yearTo: '2024',
+  },
+  {
+    company: 'Boost IT',
+    description: {
+      en: '',
+      es: '',
+    },
+    tasks: [],
+    id: 'boost-it',
+    position: {
+      en: 'Frontend Developer',
+      es: 'Frontend Developer',
+    },
+    skillsUsed: [],
+    yearFrom: '2023',
+    yearTo: '2024',
+  },
+  {
     company: 'Webdox CLM',
     description: {
       en: 'I worked on the development and maintenance of a web application for a Contract Lifecycle Management (CLM) using React and TypeScript. The application aimed to digitally manage commercial contracts through all stages, from creation to storage. I was part of a multidisciplinary team that included a Product Manager, a Product Designer, Engineering Managers, and both backend and frontend developers. We adopted agile methodologies like Scrum and Kanban to enhance efficiency and collaboration in the project, with 2-week sprints for task planning and execution. Some of these tasks included:',
@@ -205,7 +319,7 @@ export const professionalExperience = [
         },
       },
     ],
-    id: 1,
+    id: 'webdox',
     position: {
       en: 'React Developer',
       es: 'React Developer',
@@ -292,7 +406,7 @@ export const professionalExperience = [
         },
       },
     ],
-    id: 2,
+    id: 'initium-software',
     position: {
       en: 'Full-Stack Developer',
       es: 'Full-Stack Developer',
@@ -397,7 +511,7 @@ export const professionalExperience = [
         },
       },
     ],
-    id: 3,
+    id: 'technology-4-solutions',
     position: {
       en: 'Full-Stack Developer',
       es: 'Full-Stack Developer',
@@ -495,7 +609,7 @@ export const professionalExperience = [
         },
       },
     ],
-    id: 4,
+    id: 'soluciones-medianet',
     position: {
       en: 'Full-Stack Developer',
       es: 'Full-Stack Developer',

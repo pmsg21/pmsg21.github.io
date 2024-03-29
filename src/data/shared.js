@@ -2,8 +2,8 @@ export const socialLinks = [
   {
     dataTip: 'LinkedIn',
     href: {
-      en: 'https://www.linkedin.com/in/web-developer-pablo-sierra/?locale=en_US',
-      es: 'https://www.linkedin.com/in/web-developer-pablo-sierra/',
+      en: 'https://www.linkedin.com/in/frontend-developer-pablo-sierra/?locale=en_US',
+      es: 'https://www.linkedin.com/in/frontend-developer-pablo-sierra/',
     },
     id: 1,
     name: 'linkedin',
