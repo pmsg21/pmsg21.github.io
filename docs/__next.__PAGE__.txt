@@ -1,0 +1,11 @@
+1:"$Sreact.fragment"
+2:I[66853,["/_next/static/chunks/0x-rvs_7vj0jw.js","/_next/static/chunks/0d3tkj33oycf2.js","/_next/static/chunks/0_l-pgk~rir2f.js"],"HeroSection"]
+3:I[55160,["/_next/static/chunks/0x-rvs_7vj0jw.js","/_next/static/chunks/0d3tkj33oycf2.js","/_next/static/chunks/0_l-pgk~rir2f.js"],"AboutSection"]
+4:I[88169,["/_next/static/chunks/0x-rvs_7vj0jw.js","/_next/static/chunks/0d3tkj33oycf2.js","/_next/static/chunks/0_l-pgk~rir2f.js"],"SkillsSection"]
+5:I[28388,["/_next/static/chunks/0x-rvs_7vj0jw.js","/_next/static/chunks/0d3tkj33oycf2.js","/_next/static/chunks/0_l-pgk~rir2f.js"],"ExperienceSection"]
+6:I[52312,["/_next/static/chunks/0x-rvs_7vj0jw.js","/_next/static/chunks/0d3tkj33oycf2.js","/_next/static/chunks/0_l-pgk~rir2f.js"],"AchievementsSection"]
+7:I[63446,["/_next/static/chunks/0x-rvs_7vj0jw.js","/_next/static/chunks/0d3tkj33oycf2.js","/_next/static/chunks/0_l-pgk~rir2f.js"],"ContactSection"]
+8:I[97367,["/_next/static/chunks/0x-rvs_7vj0jw.js","/_next/static/chunks/0d3tkj33oycf2.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}]],[["$","script","script-0",{"src":"/_next/static/chunks/0_l-pgk~rir2f.js","async":true}]],["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"SAbiK-fTDOTSsqCvaI0IL"}
+a:null
