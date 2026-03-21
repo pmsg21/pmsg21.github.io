@@ -10,7 +10,7 @@ export function ExperienceSection() {
   const cvFile =
     locale === "es"
       ? "/files/CV_Pablo_Sierra_ES.pdf"
-      : "/files/CV_Pablo_Sierra _EN.pdf";
+      : "/files/CV_Pablo_Sierra_EN.pdf";
 
   return (
     <section
